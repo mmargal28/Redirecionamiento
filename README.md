@@ -15,4 +15,4 @@ free -h >> informe.txt
 echo "Los usuarios conectados son:" >> informe.txt
 who >> informe.txt
 ```
-![imagen](Captura desde 2023-11-23 13-29-25.png)
+![imagen](/Captura desde 2023-11-23 13-29-25.png)
