@@ -6,4 +6,13 @@ Memoria ram libre (free -h);
 Usuarios conectados;
 Hay que subir una imagen de que el scrip ha sido ejecutado con exito.
 ```
-date "+%d-%m-%Y"
+#!/bin/bash
+echo "Fecha:$(date "+%d-%m-%Y")" >> informe.txt
+echo "El espacio en disco es:" >> informe.txt
+df -h >> informe.txt
+echo "La memoria ram disponible es:" >> informe.txt
+free -h >> informe.txt
+echo "Los usuarios conectados son:" >> informe.txt
+who >> informe.txt
+```
+
